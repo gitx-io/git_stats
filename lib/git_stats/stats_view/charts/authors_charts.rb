@@ -13,8 +13,8 @@ module GitStats
           Chart.new do |f|
             f.multi_date_chart(
                 data: (authors || @authors.sort_by { |author| -author.commits.size }[0..AUTHORS_ON_CHART_LIMIT]).map { |author| {name: author.name, data: author.commits_sum_by_date} },
-                title: :lines_by_date.t,
-                y_text: :lines.t
+                title: :commits_by_date.t,
+                y_text: :commits.t
             )
           end
         end
