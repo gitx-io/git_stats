@@ -17,6 +17,9 @@ test/tmp
 test/version_tmp
 tmp
 
+# generated stats for this project
+git_stats/
+
 # rubymine
 .idea
 
