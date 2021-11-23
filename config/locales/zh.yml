@@ -1,62 +1,62 @@
-zh_tw:
+zh:
   project_name: 项目名称
-  project_version: 版本
+  project_version: 项目版本
   tree_path: 路径
   generated_at: 报告生成时间
   generator: 报告生成工具
   report_period: 报告分析范围
-  total_files: 总文件数
+  total_files: 文件总数
   total_lines: 总行数
   total_commits: 提交总量
-  authors: 作者数量
+  authors: 开发者
   commits: 提交数量
   commits_by_hour: 按时段统计提交数量
   files: 文件数量
-  lines: 行数
-  comments: 注释量
+  lines: 代码行数
+  comments: 注释行数
   files_by_date: 按日期统计文件数量
   lines_by_date: 按日期统计代码行数
-  comments_by_date: 按日期统计注释量
+  comments_by_date: 按日期统计注释行数
   files_by_extension: 按文件类型统计文件数量
   lines_by_extension: 按文件类型统计代码行数
-  hour_of_day: 每日时间分布
+  hour_of_day: 按每日时段统计
   hour: 时段
   percentage: 占比（%）
-  day: 按星期几统计
-  day_of_week: 按星期几统计
-  hour_of_week: 按星期几的时段统计
+  day: 周内每天
+  day_of_week: 按周内每天统计
+  hour_of_week: 按周内时段统计
   month: 月份
-  month_of_year: 按月份分布
-  year_month: 年/月分布
+  month_of_year: 按月份统计
+  year_month: 按年/月统计
   commits_by_wday: 按工作日统计提交数量
   commits_by_month: 按月统计提交数量
   commits_by_year_month: 按年/月统计提交数量
   commits_by_month_of_year: 按某年某月统计提交数量
-  year: 年份分布
+  year: 按年份统计
   commits_by_year: 按年份统计提交数量
   activity: 活跃度
   activity_by_date: 按日期统计活跃度
   commits_by_date: 按日期统计提交量分布
-  insertions_by_author: 该作者新增的行数
-  deletions_by_author: 该作者删除的行数
-  changed_lines_by_author: 该作者变更的行数
-  best_authors_shown: 个最活跃的作者
-  commits_count_by_author: 按作者统计提交数量
-  commits_sum_by_author_by_date: 按日期及作者统计提交数量
-  insertions_by_author_by_date: 按日期及作者统计增加行数
-  deletions_by_author_by_date: 按日期及作者统计删除行数
-  changed_lines_by_author_by_date: 按日期及作者统计变更行数
-  best_authors: 作者排行榜
+  insertions_by_author: 该开发者新增的行数
+  deletions_by_author: 该开发者删除的行数
+  changed_lines_by_author: 该开发者变更的行数
+  best_authors_shown: 个最活跃的开发者
+  commits_count_by_author: 按开发者统计提交数量
+  commits_sum_by_author_by_date: 按日期及开发者统计提交数量
+  insertions_by_author_by_date: 按日期及开发者统计增加行数
+  deletions_by_author_by_date: 按日期及开发者统计删除行数
+  changed_lines_by_author_by_date: 按日期及开发者统计变更行数
+  best_authors: 开发者排行榜
   insertions: 新增行数
   deletions: 删除行数
   first_commit: 首次提交
   last_commit: 最近一次提交
-  author: 作者
+  author: 开发者
   show_more: 更多
   close: 关闭
-  binary: 二级制文件
+  binary: 二进制文件
   text: 文本文件
-  general: 常规
+  general: 概览
   details: 详情
   insertions_by_date: 按日期统计增加行数
   deletions_by_date: 按日期统计删除行数
