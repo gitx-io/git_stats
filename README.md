@@ -4,25 +4,20 @@ GitStats is a git repository statistics generator.
 It browses the repository and outputs html page with statistics.
 
 ## Examples
-* [devise](http://tomgi.github.com/git_stats/examples/devise/index.html)
-* [devise_invitable](http://tomgi.github.com/git_stats/examples/devise_invitable/index.html)
-* [john](http://tomgi.github.com/git_stats/examples/john/index.html)
-* [jquery](http://tomgi.github.com/git_stats/examples/jquery/index.html)
-* [merit](http://tomgi.github.com/git_stats/examples/merit/index.html)
-* [paperclip](http://tomgi.github.com/git_stats/examples/paperclip/index.html)
-* [rails](http://tomgi.github.com/git_stats/examples/rails/index.html)
+* [jQuery](https://gitx.io/git_stats/examples/jquery/index.html)
+* [Rails](https://gitx.io/git_stats/examples/rails/index.html)
 
 ## Installation
 
 ### Existing ruby/gem environment
 
     $ gem install git_stats
-    
+
 ### debian stretch (9.*)
 
     # apt-get install ruby ruby-nokogiri ruby-nokogiri-diff ruby-nokogumbo
     # gem install git_stats
-    
+
 ### Ubuntu
 
     $ sudo apt-get install ruby ruby-dev gcc zlib1g-dev make
