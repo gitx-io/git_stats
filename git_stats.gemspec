@@ -6,11 +6,11 @@ require 'git_stats/version'
 Gem::Specification.new do |gem|
   gem.name          = "git_stats"
   gem.version       = GitStats::VERSION
-  gem.authors       = ["Tomasz Gieniusz"]
-  gem.email         = ["tomasz.gieniusz@gmail.com"]
+  gem.authors       = ["Tomasz Gieniusz", "B1nj0y"]
+  gem.email         = ["tomasz.gieniusz@gmail.com", "idegorepl@gmail.com"]
   gem.description   = %q{Git history statistics generator}
   gem.summary       = %q{HTML statistics generator from git repository}
-  gem.homepage      = "https://github.com/tomgi/git_stats"
+  gem.homepage      = "https://github.com/gitx-io/git_stats"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
