@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GitStats - rails</title>
+<meta charset='utf-8'>
+<link href='../../../assets/bootstrap/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+<style>
+body { padding-top: 60px; }
+</style>
+<link href='../../../assets/bootstrap/css/bootstrap-responsive.min.css' rel='stylesheet' type='text/css'>
+<script src='../../../assets/jquery.min.js' type='text/javascript'></script>
+<script src='../../../assets/bootstrap/js/bootstrap.min.js' type='text/javascript'></script>
+<script src='../../../assets/highstock.js' type='text/javascript'></script>
+<script src='../../../assets/exporting.js' type='text/javascript'></script>
+<script src='../../../assets/export-csv.js' type='text/javascript'></script>
+</head>
+<body>
+<div class='navbar navbar-fixed-top'>
+<div class='navbar-inner'>
+<div class='container'>
+<a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse'>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</a>
+<a class='brand' href='../../../index.html'>GitStats - rails</a>
+<div class='nav-collapse collapse'>
+<ul class='nav'>
+<li class=''>
+<a href='../../../general.html'>General</a>
+</li>
+<li class=''>
+<a href='../../../activity/by_date.html'>Activity</a>
+</li>
+<li class='active'>
+<a href='../../best_authors.html'>Authors</a>
+</li>
+<li class=''>
+<a href='../../../files/by_date.html'>Files</a>
+</li>
+<li class=''>
+<a href='../../../lines/by_date.html'>Lines</a>
+</li>
+<li class=''>
+<a href='../../../comments/by_date.html'>Comments</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='container'>
+<div class='tabbable tabs-left'>
+<ul class='nav nav-tabs'>
+<li class=''>
+<a href='commits_by_date.html'>Commits by date</a>
+</li>
+<li class=''>
+<a href='changed_lines_by_date.html'>Changed lines by date</a>
+</li>
+<li class='active'>
+<a href='insertions_by_date.html'>Lines added by date</a>
+</li>
+<li class=''>
+<a href='deletions_by_date.html'>Lines deleted by date</a>
+</li>
+</ul>
+<div class='tab-content'>
+<div class='tab-pane active'>
+<div class='page-header'>
+<h1 class='pagination-centered'>Lines added by date</h1>
+</div>
+                <script type="text/javascript">
+        (function() {
+
+          window.addEventListener('load', function() {
+                    var options = { "title": { "text": "" },"legend": { "enabled": true,"layout": "vertical","backgroundColor": "#FFFFFF","align": "left","verticalAlign": "top","x": 100,"y": 70,"floating": true,"shadow": true },"xAxis": { "title": { "text": null } },"yAxis": { "title": { "text": "Lines" },"labels": {  } },"tooltip": { "enabled": true },"credits": { "enabled": false },"plotOptions": { "areaspline": {  } },"chart": { "defaultSeriesType": "line","renderTo": "charts.insertions_by_author_by_date" },"subtitle": {  },"series": [{ "name": "Cameron Bothner","type": "spline","data": [ [ 1534613493000,102 ],[ 1534615432000,118 ],[ 1534636800000,118 ],[ 1534800936000,138 ],[ 1534809600000,138 ],[ 1534896000000,138 ],[ 1535068800000,152 ],[ 1535081803000,152 ],[ 1535155200000,152 ],[ 1535241600000,152 ],[ 1535328000000,152 ],[ 1535414400000,152 ],[ 1535500800000,152 ],[ 1535587200000,152 ],[ 1535673600000,152 ],[ 1535760000000,152 ],[ 1535846400000,152 ],[ 1535932800000,152 ],[ 1536019200000,152 ],[ 1536105600000,152 ],[ 1536192000000,152 ],[ 1536278400000,152 ],[ 1536364800000,152 ],[ 1536451200000,152 ],[ 1536537600000,152 ],[ 1536624000000,152 ],[ 1536710400000,152 ],[ 1536796800000,152 ],[ 1536883200000,152 ],[ 1536969600000,152 ],[ 1537056000000,152 ],[ 1537142400000,152 ],[ 1537228800000,152 ],[ 1537315200000,152 ],[ 1537401600000,152 ],[ 1537488000000,152 ],[ 1537574400000,152 ],[ 1537660800000,152 ],[ 1537747200000,152 ],[ 1537833600000,152 ],[ 1537920000000,152 ],[ 1538006400000,152 ],[ 1538092800000,152 ],[ 1538179200000,152 ],[ 1538265600000,152 ],[ 1538352000000,152 ],[ 1538438400000,152 ],[ 1538524800000,152 ],[ 1538611200000,152 ],[ 1538697600000,152 ],[ 1538784000000,152 ],[ 1538870400000,152 ],[ 1538956800000,152 ],[ 1539043200000,152 ],[ 1539129600000,152 ],[ 1539216000000,152 ],[ 1539302400000,152 ],[ 1539388800000,152 ],[ 1539475200000,152 ],[ 1539561600000,152 ],[ 1539648000000,152 ],[ 1539734400000,152 ],[ 1539820800000,152 ],[ 1539907200000,152 ],[ 1539993600000,152 ],[ 1540080000000,152 ],[ 1540166400000,152 ],[ 1540252800000,152 ],[ 1540339200000,152 ],[ 1540425600000,152 ],[ 1540512000000,152 ],[ 1540598400000,152 ],[ 1540684800000,152 ],[ 1540771200000,152 ],[ 1540857600000,152 ],[ 1540944000000,152 ],[ 1541030400000,152 ],[ 1541116800000,152 ],[ 1541203200000,152 ],[ 1541289600000,152 ],[ 1541376000000,152 ],[ 1541462400000,152 ],[ 1541548800000,152 ],[ 1541635200000,152 ],[ 1541721600000,152 ],[ 1541808000000,152 ],[ 1541894400000,152 ],[ 1541980800000,152 ],[ 1542067200000,152 ],[ 1542153600000,152 ],[ 1542240000000,152 ],[ 1542326400000,152 ],[ 1542412800000,152 ],[ 1542499200000,152 ],[ 1542585600000,152 ],[ 1542672000000,152 ],[ 1542758400000,152 ],[ 1542844800000,152 ],[ 1542931200000,152 ],[ 1543017600000,152 ],[ 1543104000000,152 ],[ 1543190400000,152 ],[ 1543276800000,152 ],[ 1543363200000,152 ],[ 1543449600000,152 ],[ 1543536000000,152 ],[ 1543622400000,152 ],[ 1543708800000,152 ],[ 1543795200000,152 ],[ 1543881600000,152 ],[ 1543968000000,152 ],[ 1544054400000,152 ],[ 1544140800000,152 ],[ 1544227200000,152 ],[ 1544313600000,152 ],[ 1544400000000,152 ],[ 1544486400000,152 ],[ 1544572800000,152 ],[ 1544659200000,152 ],[ 1544745600000,152 ],[ 1544832000000,152 ],[ 1544918400000,152 ],[ 1545004800000,152 ],[ 1545091200000,152 ],[ 1545177600000,152 ],[ 1545264000000,152 ],[ 1545350400000,152 ],[ 1545436800000,152 ],[ 1545523200000,152 ],[ 1545609600000,152 ],[ 1545696000000,152 ],[ 1545782400000,152 ],[ 1545932644000,167 ] ] }] };
+        
+        window.chart_charts.insertions_by_author_by_date = new Highcharts.StockChart(options);
+
+          });
+                })()
+        </script>
+
+<div id="charts.insertions_by_author_by_date"></div>
+<small>
+<center>5 best authors shown</center>
+</small>
+</div>
+</div>
+</div>
+
+
+</div>
+</body>
+</html>

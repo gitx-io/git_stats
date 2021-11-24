@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GitStats - rails</title>
+<meta charset='utf-8'>
+<link href='../../../assets/bootstrap/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+<style>
+body { padding-top: 60px; }
+</style>
+<link href='../../../assets/bootstrap/css/bootstrap-responsive.min.css' rel='stylesheet' type='text/css'>
+<script src='../../../assets/jquery.min.js' type='text/javascript'></script>
+<script src='../../../assets/bootstrap/js/bootstrap.min.js' type='text/javascript'></script>
+<script src='../../../assets/highstock.js' type='text/javascript'></script>
+<script src='../../../assets/exporting.js' type='text/javascript'></script>
+<script src='../../../assets/export-csv.js' type='text/javascript'></script>
+</head>
+<body>
+<div class='navbar navbar-fixed-top'>
+<div class='navbar-inner'>
+<div class='container'>
+<a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse'>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</a>
+<a class='brand' href='../../../index.html'>GitStats - rails</a>
+<div class='nav-collapse collapse'>
+<ul class='nav'>
+<li class=''>
+<a href='../../../general.html'>General</a>
+</li>
+<li class=''>
+<a href='../../../activity/by_date.html'>Activity</a>
+</li>
+<li class='active'>
+<a href='../../best_authors.html'>Authors</a>
+</li>
+<li class=''>
+<a href='../../../files/by_date.html'>Files</a>
+</li>
+<li class='active'>
+<a href='../../../lines/by_date.html'>Lines</a>
+</li>
+<li class=''>
+<a href='../../../comments/by_date.html'>Comments</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='container'>
+<div class='tabbable tabs-left'>
+<ul class='nav nav-tabs'>
+<li class=''>
+<a href='commits_by_date.html'>Commits by date</a>
+</li>
+<li class='active'>
+<a href='changed_lines_by_date.html'>Changed lines by date</a>
+</li>
+<li class=''>
+<a href='insertions_by_date.html'>Lines added by date</a>
+</li>
+<li class=''>
+<a href='deletions_by_date.html'>Lines deleted by date</a>
+</li>
+</ul>
+<div class='tab-content'>
+<div class='tab-pane active'>
+<div class='page-header'>
+<h1 class='pagination-centered'>Changed lines by date</h1>
+</div>
+                <script type="text/javascript">
+        (function() {
+
+          window.addEventListener('load', function() {
+                    var options = { "title": { "text": "" },"legend": { "enabled": true,"layout": "vertical","backgroundColor": "#FFFFFF","align": "left","verticalAlign": "top","x": 100,"y": 70,"floating": true,"shadow": true },"xAxis": { "title": { "text": null } },"yAxis": { "title": { "text": "Lines" },"labels": {  } },"tooltip": { "enabled": true },"credits": { "enabled": false },"plotOptions": { "areaspline": {  } },"chart": { "defaultSeriesType": "line","renderTo": "charts.changed_lines_by_author_by_date" },"subtitle": {  },"series": [{ "name": "Aditya Bhutani","type": "spline","data": [ [ 1622410782000,4 ],[ 1622455888000,14 ],[ 1622466612000,30 ],[ 1622498278000,40 ],[ 1622503465000,44 ],[ 1622592000000,44 ],[ 1622678400000,44 ],[ 1622764800000,44 ],[ 1622844481000,64 ],[ 1622849059000,104 ],[ 1622929029000,120 ],[ 1623024000000,120 ],[ 1623110400000,120 ],[ 1623196800000,120 ],[ 1623283200000,120 ],[ 1623369600000,120 ],[ 1623456000000,120 ],[ 1623531974000,122 ],[ 1623532718000,144 ],[ 1623689213000,152 ],[ 1623709745000,168 ],[ 1623801600000,168 ],[ 1623888000000,168 ],[ 1623974400000,168 ],[ 1624060800000,168 ],[ 1624147200000,168 ],[ 1624233600000,168 ],[ 1624320000000,168 ],[ 1624406400000,168 ],[ 1624492800000,168 ],[ 1624579200000,168 ],[ 1624665600000,168 ],[ 1624752000000,168 ],[ 1624838400000,168 ],[ 1624924800000,168 ],[ 1625011200000,168 ],[ 1625097600000,168 ],[ 1625184000000,168 ],[ 1625270400000,168 ],[ 1625356800000,168 ],[ 1625443200000,168 ],[ 1625529600000,168 ],[ 1625616000000,168 ],[ 1625702400000,168 ],[ 1625788800000,168 ],[ 1625875200000,168 ],[ 1625961600000,168 ],[ 1626048000000,168 ],[ 1626134400000,168 ],[ 1626220800000,168 ],[ 1626307200000,168 ],[ 1626393600000,168 ],[ 1626480000000,168 ],[ 1626566400000,168 ],[ 1626652800000,168 ],[ 1626739200000,168 ],[ 1626825600000,168 ],[ 1626912000000,168 ],[ 1626998400000,168 ],[ 1627084800000,168 ],[ 1627171200000,168 ],[ 1627257600000,168 ],[ 1627344000000,168 ],[ 1627430400000,168 ],[ 1627516800000,168 ],[ 1627603200000,168 ],[ 1627689600000,168 ],[ 1627776000000,168 ],[ 1627862400000,168 ],[ 1627948800000,168 ],[ 1628035200000,168 ],[ 1628121600000,168 ],[ 1628208000000,168 ],[ 1628294400000,168 ],[ 1628380800000,168 ],[ 1628467200000,168 ],[ 1628553600000,168 ],[ 1628640000000,168 ],[ 1628726400000,168 ],[ 1628812800000,168 ],[ 1628899200000,168 ],[ 1628985600000,168 ],[ 1629072000000,168 ],[ 1629158400000,168 ],[ 1629244800000,168 ],[ 1629331200000,168 ],[ 1629417600000,168 ],[ 1629504000000,168 ],[ 1629590400000,168 ],[ 1629676800000,168 ],[ 1629763200000,168 ],[ 1629849600000,168 ],[ 1629936000000,168 ],[ 1630022400000,168 ],[ 1630108800000,168 ],[ 1630195200000,168 ],[ 1630281600000,168 ],[ 1630368000000,168 ],[ 1630454400000,168 ],[ 1630540800000,168 ],[ 1630627200000,168 ],[ 1630713600000,168 ],[ 1630800000000,168 ],[ 1630886400000,168 ],[ 1630972800000,168 ],[ 1631059200000,168 ],[ 1631145600000,168 ],[ 1631232000000,168 ],[ 1631318400000,168 ],[ 1631404800000,168 ],[ 1631491200000,168 ],[ 1631577600000,168 ],[ 1631664000000,168 ],[ 1631750400000,168 ],[ 1631836800000,168 ],[ 1631923200000,168 ],[ 1632009600000,168 ],[ 1632096000000,168 ],[ 1632182400000,168 ],[ 1632268800000,168 ],[ 1632355200000,168 ],[ 1632441600000,168 ],[ 1632528000000,168 ],[ 1632614400000,168 ],[ 1632700800000,168 ],[ 1632787200000,168 ],[ 1632873600000,168 ],[ 1632960000000,168 ],[ 1633046400000,168 ],[ 1633132800000,168 ],[ 1633219200000,168 ],[ 1633305600000,168 ],[ 1633392000000,168 ],[ 1633478400000,168 ],[ 1633564800000,168 ],[ 1633651200000,168 ],[ 1633737600000,168 ],[ 1633824000000,168 ],[ 1633910400000,168 ],[ 1633996800000,168 ],[ 1634083200000,168 ],[ 1634169600000,168 ],[ 1634256000000,168 ],[ 1634342400000,168 ],[ 1634428800000,168 ],[ 1634515200000,168 ],[ 1634601600000,168 ],[ 1634688000000,168 ],[ 1634774400000,168 ],[ 1634860800000,168 ],[ 1634947200000,168 ],[ 1635033600000,168 ],[ 1635120000000,168 ],[ 1635195493000,172 ] ] }] };
+        
+        window.chart_charts.changed_lines_by_author_by_date = new Highcharts.StockChart(options);
+
+          });
+                })()
+        </script>
+
+<div id="charts.changed_lines_by_author_by_date"></div>
+<small>
+<center>5 best authors shown</center>
+</small>
+</div>
+</div>
+</div>
+
+
+</div>
+</body>
+</html>

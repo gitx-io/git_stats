@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GitStats - rails</title>
+<meta charset='utf-8'>
+<link href='../../../assets/bootstrap/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+<style>
+body { padding-top: 60px; }
+</style>
+<link href='../../../assets/bootstrap/css/bootstrap-responsive.min.css' rel='stylesheet' type='text/css'>
+<script src='../../../assets/jquery.min.js' type='text/javascript'></script>
+<script src='../../../assets/bootstrap/js/bootstrap.min.js' type='text/javascript'></script>
+<script src='../../../assets/highstock.js' type='text/javascript'></script>
+<script src='../../../assets/exporting.js' type='text/javascript'></script>
+<script src='../../../assets/export-csv.js' type='text/javascript'></script>
+</head>
+<body>
+<div class='navbar navbar-fixed-top'>
+<div class='navbar-inner'>
+<div class='container'>
+<a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse'>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</a>
+<a class='brand' href='../../../index.html'>GitStats - rails</a>
+<div class='nav-collapse collapse'>
+<ul class='nav'>
+<li class=''>
+<a href='../../../general.html'>General</a>
+</li>
+<li class=''>
+<a href='../../../activity/by_date.html'>Activity</a>
+</li>
+<li class='active'>
+<a href='../../best_authors.html'>Authors</a>
+</li>
+<li class=''>
+<a href='../../../files/by_date.html'>Files</a>
+</li>
+<li class=''>
+<a href='../../../lines/by_date.html'>Lines</a>
+</li>
+<li class=''>
+<a href='../../../comments/by_date.html'>Comments</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='container'>
+<div class='tabbable tabs-left'>
+<ul class='nav nav-tabs'>
+<li class='active'>
+<a href='commits_by_date.html'>Commits by date</a>
+</li>
+<li class=''>
+<a href='changed_lines_by_date.html'>Changed lines by date</a>
+</li>
+<li class=''>
+<a href='insertions_by_date.html'>Lines added by date</a>
+</li>
+<li class=''>
+<a href='deletions_by_date.html'>Lines deleted by date</a>
+</li>
+</ul>
+<div class='tab-content'>
+<div class='tab-pane active'>
+<div class='page-header'>
+<h1 class='pagination-centered'>Commits by date</h1>
+</div>
+                <script type="text/javascript">
+        (function() {
+
+          window.addEventListener('load', function() {
+                    var options = { "title": { "text": "" },"legend": { "enabled": true,"layout": "vertical","backgroundColor": "#FFFFFF","align": "left","verticalAlign": "top","x": 100,"y": 70,"floating": true,"shadow": true },"xAxis": { "title": { "text": null } },"yAxis": { "title": { "text": "Commits" },"labels": {  } },"tooltip": { "enabled": true },"credits": { "enabled": false },"plotOptions": { "areaspline": {  } },"chart": { "defaultSeriesType": "line","renderTo": "charts.commits_sum_by_author_by_date" },"subtitle": {  },"series": [{ "name": "Lisa Ugray","type": "spline","data": [ [ 1499192555000,1 ],[ 1499212800000,1 ],[ 1499360373000,2 ],[ 1499385600000,2 ],[ 1499472000000,2 ],[ 1499558400000,2 ],[ 1499699565000,3 ],[ 1499715852000,4 ],[ 1499792236000,5 ],[ 1499869340000,6 ],[ 1499904000000,6 ],[ 1500053851000,7 ],[ 1500076800000,7 ],[ 1500163200000,7 ],[ 1500249600000,7 ],[ 1500336000000,7 ],[ 1500474498000,8 ],[ 1500490595000,9 ],[ 1500508800000,9 ],[ 1500595200000,9 ],[ 1500681600000,9 ],[ 1500768000000,9 ],[ 1500920276000,10 ],[ 1501008679000,11 ],[ 1501027200000,11 ],[ 1501113600000,11 ],[ 1501200000000,11 ],[ 1501286400000,11 ],[ 1501372800000,11 ],[ 1501459200000,11 ],[ 1501545600000,11 ],[ 1501632000000,11 ],[ 1501718400000,11 ],[ 1501804800000,11 ],[ 1501891200000,11 ],[ 1501977600000,11 ],[ 1502064000000,11 ],[ 1502150400000,11 ],[ 1502236800000,11 ],[ 1502323200000,11 ],[ 1502409600000,11 ],[ 1502496000000,11 ],[ 1502582400000,11 ],[ 1502668800000,11 ],[ 1502755200000,11 ],[ 1502841600000,11 ],[ 1502928000000,11 ],[ 1503014400000,11 ],[ 1503100800000,11 ],[ 1503187200000,11 ],[ 1503273600000,11 ],[ 1503360000000,11 ],[ 1503446400000,11 ],[ 1503532800000,11 ],[ 1503619200000,11 ],[ 1503705600000,11 ],[ 1503792000000,11 ],[ 1503878400000,11 ],[ 1503964800000,11 ],[ 1504051200000,11 ],[ 1504137600000,11 ],[ 1504224000000,11 ],[ 1504310400000,11 ],[ 1504396800000,11 ],[ 1504483200000,11 ],[ 1504569600000,11 ],[ 1504656000000,11 ],[ 1504742400000,11 ],[ 1504828800000,11 ],[ 1504915200000,11 ],[ 1505001600000,11 ],[ 1505088000000,11 ],[ 1505174400000,11 ],[ 1505260800000,11 ],[ 1505347200000,11 ],[ 1505433600000,11 ],[ 1505520000000,11 ],[ 1505606400000,11 ],[ 1505692800000,11 ],[ 1505779200000,11 ],[ 1505865600000,11 ],[ 1505952000000,11 ],[ 1506038400000,11 ],[ 1506124800000,11 ],[ 1506211200000,11 ],[ 1506297600000,11 ],[ 1506384000000,11 ],[ 1506470400000,11 ],[ 1506556800000,11 ],[ 1506643200000,11 ],[ 1506729600000,11 ],[ 1506816000000,11 ],[ 1506902400000,11 ],[ 1506988800000,11 ],[ 1507075200000,11 ],[ 1507161600000,11 ],[ 1507248000000,11 ],[ 1507334400000,11 ],[ 1507420800000,11 ],[ 1507507200000,11 ],[ 1507593600000,11 ],[ 1507680000000,11 ],[ 1507832025000,12 ],[ 1507852800000,12 ],[ 1507939200000,12 ],[ 1508025600000,12 ],[ 1508112000000,12 ],[ 1508198400000,12 ],[ 1508284800000,12 ],[ 1508431507000,13 ] ] }] };
+        
+        window.chart_charts.commits_sum_by_author_by_date = new Highcharts.StockChart(options);
+
+          });
+                })()
+        </script>
+
+<div id="charts.commits_sum_by_author_by_date"></div>
+<small>
+<center>5 best authors shown</center>
+</small>
+</div>
+</div>
+</div>
+
+
+</div>
+</body>
+</html>

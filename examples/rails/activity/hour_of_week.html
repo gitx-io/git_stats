@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GitStats - rails</title>
+<meta charset='utf-8'>
+<link href='../assets/bootstrap/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+<style>
+body { padding-top: 60px; }
+</style>
+<link href='../assets/bootstrap/css/bootstrap-responsive.min.css' rel='stylesheet' type='text/css'>
+<script src='../assets/jquery.min.js' type='text/javascript'></script>
+<script src='../assets/bootstrap/js/bootstrap.min.js' type='text/javascript'></script>
+<script src='../assets/highstock.js' type='text/javascript'></script>
+<script src='../assets/exporting.js' type='text/javascript'></script>
+<script src='../assets/export-csv.js' type='text/javascript'></script>
+</head>
+<body>
+<div class='navbar navbar-fixed-top'>
+<div class='navbar-inner'>
+<div class='container'>
+<a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse'>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</a>
+<a class='brand' href='../index.html'>GitStats - rails</a>
+<div class='nav-collapse collapse'>
+<ul class='nav'>
+<li class=''>
+<a href='../general.html'>General</a>
+</li>
+<li class='active'>
+<a href='by_date.html'>Activity</a>
+</li>
+<li class=''>
+<a href='../authors/best_authors.html'>Authors</a>
+</li>
+<li class=''>
+<a href='../files/by_date.html'>Files</a>
+</li>
+<li class=''>
+<a href='../lines/by_date.html'>Lines</a>
+</li>
+<li class=''>
+<a href='../comments/by_date.html'>Comments</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='container'>
+<div class='tabbable tabs-left'>
+<ul class='nav nav-tabs'>
+<li class=''>
+<a href='by_date.html'>Activity by date</a>
+</li>
+<li class=''>
+<a href='hour_of_day.html'>Hour of day</a>
+</li>
+<li class=''>
+<a href='day_of_week.html'>Day of week</a>
+</li>
+<li class='active'>
+<a href='hour_of_week.html'>Hour of week</a>
+</li>
+<li class=''>
+<a href='month_of_year.html'>Month of year</a>
+</li>
+<li class=''>
+<a href='year.html'>Year</a>
+</li>
+<li class=''>
+<a href='year_month.html'>Year and month</a>
+</li>
+</ul>
+<div class='tab-content'>
+<div class='tab-pane active'>
+<div class='page-header pagination-centered'>
+<h1>Hour of week</h1>
+<h3> </h3>
+</div>
+</div>
+<table class='table table-bordered table-condensed'>
+<tr>
+<th></th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+<th>11</th>
+<th>12</th>
+<th>13</th>
+<th>14</th>
+<th>15</th>
+<th>16</th>
+<th>17</th>
+<th>18</th>
+<th>19</th>
+<th>20</th>
+<th>21</th>
+<th>22</th>
+<th>23</th>
+</tr>
+<tr>
+<th>Sun</th>
+<td style='background-color: #dbdbdb;'>337</td>
+<td style='background-color: #e1e1e1;'>281</td>
+<td style='background-color: #ececec;'>177</td>
+<td style='background-color: #ececec;'>184</td>
+<td style='background-color: #f1f1f1;'>130</td>
+<td style='background-color: #f4f4f4;'>110</td>
+<td style='background-color: #f4f4f4;'>108</td>
+<td style='background-color: #f1f1f1;'>138</td>
+<td style='background-color: #e8e8e8;'>219</td>
+<td style='background-color: #e3e3e3;'>267</td>
+<td style='background-color: #d7d7d7;'>372</td>
+<td style='background-color: #cccccc;'>480</td>
+<td style='background-color: #cbcbcb;'>481</td>
+<td style='background-color: #cbcbcb;'>488</td>
+<td style='background-color: #cdcdcd;'>466</td>
+<td style='background-color: #cccccc;'>475</td>
+<td style='background-color: #c1c1c1;'>581</td>
+<td style='background-color: #c5c5c5;'>543</td>
+<td style='background-color: #cccccc;'>473</td>
+<td style='background-color: #cccccc;'>480</td>
+<td style='background-color: #cccccc;'>474</td>
+<td style='background-color: #c7c7c7;'>518</td>
+<td style='background-color: #c6c6c6;'>533</td>
+<td style='background-color: #c9c9c9;'>504</td>
+</tr>
+<tr>
+<th>Mon</th>
+<td style='background-color: #d3d3d3;'>413</td>
+<td style='background-color: #e1e1e1;'>279</td>
+<td style='background-color: #ebebeb;'>194</td>
+<td style='background-color: #ebebeb;'>185</td>
+<td style='background-color: #f3f3f3;'>119</td>
+<td style='background-color: #ececec;'>177</td>
+<td style='background-color: #eeeeee;'>159</td>
+<td style='background-color: #ececec;'>177</td>
+<td style='background-color: #dbdbdb;'>340</td>
+<td style='background-color: #c8c8c8;'>516</td>
+<td style='background-color: #c1c1c1;'>581</td>
+<td style='background-color: #b1b1b1;'>730</td>
+<td style='background-color: #c2c2c2;'>569</td>
+<td style='background-color: #b4b4b4;'>697</td>
+<td style='background-color: #a8a8a8;'>805</td>
+<td style='background-color: #aaaaaa;'>792</td>
+<td style='background-color: #a7a7a7;'>817</td>
+<td style='background-color: #aeaeae;'>751</td>
+<td style='background-color: #c1c1c1;'>576</td>
+<td style='background-color: #c6c6c6;'>533</td>
+<td style='background-color: #cacaca;'>493</td>
+<td style='background-color: #bfbfbf;'>594</td>
+<td style='background-color: #c2c2c2;'>571</td>
+<td style='background-color: #c5c5c5;'>545</td>
+</tr>
+<tr>
+<th>Tue</th>
+<td style='background-color: #d0d0d0;'>442</td>
+<td style='background-color: #dedede;'>306</td>
+<td style='background-color: #eaeaea;'>203</td>
+<td style='background-color: #efefef;'>152</td>
+<td style='background-color: #f0f0f0;'>144</td>
+<td style='background-color: #eeeeee;'>163</td>
+<td style='background-color: #f0f0f0;'>143</td>
+<td style='background-color: #e8e8e8;'>213</td>
+<td style='background-color: #d6d6d6;'>383</td>
+<td style='background-color: #c3c3c3;'>563</td>
+<td style='background-color: #b0b0b0;'>733</td>
+<td style='background-color: #aeaeae;'>757</td>
+<td style='background-color: #bfbfbf;'>597</td>
+<td style='background-color: #b5b5b5;'>687</td>
+<td style='background-color: #a9a9a9;'>799</td>
+<td style='background-color: #9f9f9f;'>890</td>
+<td style='background-color: #9b9b9b;'>925</td>
+<td style='background-color: #ababab;'>777</td>
+<td style='background-color: #bbbbbb;'>635</td>
+<td style='background-color: #c7c7c7;'>521</td>
+<td style='background-color: #cacaca;'>496</td>
+<td style='background-color: #cbcbcb;'>489</td>
+<td style='background-color: #c2c2c2;'>571</td>
+<td style='background-color: #c0c0c0;'>587</td>
+</tr>
+<tr>
+<th>Wed</th>
+<td style='background-color: #cfcfcf;'>444</td>
+<td style='background-color: #dddddd;'>316</td>
+<td style='background-color: #e8e8e8;'>213</td>
+<td style='background-color: #efefef;'>152</td>
+<td style='background-color: #f2f2f2;'>129</td>
+<td style='background-color: #f1f1f1;'>134</td>
+<td style='background-color: #eeeeee;'>159</td>
+<td style='background-color: #eeeeee;'>160</td>
+<td style='background-color: #dadada;'>345</td>
+<td style='background-color: #c9c9c9;'>502</td>
+<td style='background-color: #bcbcbc;'>622</td>
+<td style='background-color: #afafaf;'>741</td>
+<td style='background-color: #b8b8b8;'>662</td>
+<td style='background-color: #b6b6b6;'>676</td>
+<td style='background-color: #afafaf;'>748</td>
+<td style='background-color: #9f9f9f;'>896</td>
+<td style='background-color: #9d9d9d;'>907</td>
+<td style='background-color: #afafaf;'>747</td>
+<td style='background-color: #c1c1c1;'>581</td>
+<td style='background-color: #c8c8c8;'>510</td>
+<td style='background-color: #cacaca;'>498</td>
+<td style='background-color: #c9c9c9;'>508</td>
+<td style='background-color: #c3c3c3;'>564</td>
+<td style='background-color: #c7c7c7;'>523</td>
+</tr>
+<tr>
+<th>Thu</th>
+<td style='background-color: #d4d4d4;'>402</td>
+<td style='background-color: #dfdfdf;'>305</td>
+<td style='background-color: #e9e9e9;'>204</td>
+<td style='background-color: #f1f1f1;'>136</td>
+<td style='background-color: #f3f3f3;'>113</td>
+<td style='background-color: #f3f3f3;'>116</td>
+<td style='background-color: #f0f0f0;'>140</td>
+<td style='background-color: #eaeaea;'>196</td>
+<td style='background-color: #dddddd;'>323</td>
+<td style='background-color: #c9c9c9;'>507</td>
+<td style='background-color: #bfbfbf;'>598</td>
+<td style='background-color: #b5b5b5;'>687</td>
+<td style='background-color: #bdbdbd;'>611</td>
+<td style='background-color: #bababa;'>644</td>
+<td style='background-color: #a6a6a6;'>831</td>
+<td style='background-color: #aaaaaa;'>789</td>
+<td style='background-color: #a9a9a9;'>798</td>
+<td style='background-color: #b2b2b2;'>715</td>
+<td style='background-color: #c1c1c1;'>579</td>
+<td style='background-color: #cecece;'>462</td>
+<td style='background-color: #cfcfcf;'>453</td>
+<td style='background-color: #cccccc;'>474</td>
+<td style='background-color: #cecece;'>460</td>
+<td style='background-color: #cdcdcd;'>465</td>
+</tr>
+<tr>
+<th>Fri</th>
+<td style='background-color: #d6d6d6;'>384</td>
+<td style='background-color: #e1e1e1;'>278</td>
+<td style='background-color: #ededed;'>167</td>
+<td style='background-color: #eeeeee;'>166</td>
+<td style='background-color: #f1f1f1;'>134</td>
+<td style='background-color: #f1f1f1;'>132</td>
+<td style='background-color: #f4f4f4;'>107</td>
+<td style='background-color: #ebebeb;'>190</td>
+<td style='background-color: #dfdfdf;'>296</td>
+<td style='background-color: #cccccc;'>473</td>
+<td style='background-color: #bcbcbc;'>628</td>
+<td style='background-color: #afafaf;'>741</td>
+<td style='background-color: #bcbcbc;'>628</td>
+<td style='background-color: #b4b4b4;'>702</td>
+<td style='background-color: #a9a9a9;'>802</td>
+<td style='background-color: #a6a6a6;'>829</td>
+<td style='background-color: #a6a6a6;'>831</td>
+<td style='background-color: #afafaf;'>742</td>
+<td style='background-color: #c4c4c4;'>550</td>
+<td style='background-color: #d6d6d6;'>388</td>
+<td style='background-color: #d0d0d0;'>436</td>
+<td style='background-color: #d2d2d2;'>419</td>
+<td style='background-color: #d3d3d3;'>407</td>
+<td style='background-color: #d0d0d0;'>438</td>
+</tr>
+<tr>
+<th>Sat</th>
+<td style='background-color: #d8d8d8;'>369</td>
+<td style='background-color: #e2e2e2;'>270</td>
+<td style='background-color: #e7e7e7;'>226</td>
+<td style='background-color: #eeeeee;'>166</td>
+<td style='background-color: #f1f1f1;'>131</td>
+<td style='background-color: #f3f3f3;'>118</td>
+<td style='background-color: #f3f3f3;'>111</td>
+<td style='background-color: #f3f3f3;'>114</td>
+<td style='background-color: #e9e9e9;'>210</td>
+<td style='background-color: #e1e1e1;'>280</td>
+<td style='background-color: #d9d9d9;'>352</td>
+<td style='background-color: #cdcdcd;'>466</td>
+<td style='background-color: #cccccc;'>476</td>
+<td style='background-color: #cbcbcb;'>490</td>
+<td style='background-color: #c9c9c9;'>501</td>
+<td style='background-color: #c8c8c8;'>510</td>
+<td style='background-color: #c8c8c8;'>515</td>
+<td style='background-color: #c5c5c5;'>539</td>
+<td style='background-color: #c7c7c7;'>520</td>
+<td style='background-color: #cfcfcf;'>446</td>
+<td style='background-color: #d5d5d5;'>397</td>
+<td style='background-color: #d7d7d7;'>379</td>
+<td style='background-color: #d4d4d4;'>404</td>
+<td style='background-color: #cdcdcd;'>464</td>
+</tr>
+</table>
+</div>
+</div>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GitStats - rails</title>
+<meta charset='utf-8'>
+<link href='../../../assets/bootstrap/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+<style>
+body { padding-top: 60px; }
+</style>
+<link href='../../../assets/bootstrap/css/bootstrap-responsive.min.css' rel='stylesheet' type='text/css'>
+<script src='../../../assets/jquery.min.js' type='text/javascript'></script>
+<script src='../../../assets/bootstrap/js/bootstrap.min.js' type='text/javascript'></script>
+<script src='../../../assets/highstock.js' type='text/javascript'></script>
+<script src='../../../assets/exporting.js' type='text/javascript'></script>
+<script src='../../../assets/export-csv.js' type='text/javascript'></script>
+</head>
+<body>
+<div class='navbar navbar-fixed-top'>
+<div class='navbar-inner'>
+<div class='container'>
+<a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse'>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</a>
+<a class='brand' href='../../../index.html'>GitStats - rails</a>
+<div class='nav-collapse collapse'>
+<ul class='nav'>
+<li class=''>
+<a href='../../../general.html'>General</a>
+</li>
+<li class=''>
+<a href='../../../activity/by_date.html'>Activity</a>
+</li>
+<li class='active'>
+<a href='../../best_authors.html'>Authors</a>
+</li>
+<li class=''>
+<a href='../../../files/by_date.html'>Files</a>
+</li>
+<li class=''>
+<a href='../../../lines/by_date.html'>Lines</a>
+</li>
+<li class=''>
+<a href='../../../comments/by_date.html'>Comments</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='container'>
+<div class='tabbable tabs-left'>
+<ul class='nav nav-tabs'>
+<li class=''>
+<a href='commits_by_date.html'>Commits by date</a>
+</li>
+<li class=''>
+<a href='changed_lines_by_date.html'>Changed lines by date</a>
+</li>
+<li class='active'>
+<a href='insertions_by_date.html'>Lines added by date</a>
+</li>
+<li class=''>
+<a href='deletions_by_date.html'>Lines deleted by date</a>
+</li>
+</ul>
+<div class='tab-content'>
+<div class='tab-pane active'>
+<div class='page-header'>
+<h1 class='pagination-centered'>Lines added by date</h1>
+</div>
+                <script type="text/javascript">
+        (function() {
+
+          window.addEventListener('load', function() {
+                    var options = { "title": { "text": "" },"legend": { "enabled": true,"layout": "vertical","backgroundColor": "#FFFFFF","align": "left","verticalAlign": "top","x": 100,"y": 70,"floating": true,"shadow": true },"xAxis": { "title": { "text": null } },"yAxis": { "title": { "text": "Lines" },"labels": {  } },"tooltip": { "enabled": true },"credits": { "enabled": false },"plotOptions": { "areaspline": {  } },"chart": { "defaultSeriesType": "line","renderTo": "charts.insertions_by_author_by_date" },"subtitle": {  },"series": [{ "name": "Viktar Basharymau","type": "spline","data": [ [ 1400769865000,1 ],[ 1400782616000,2 ],[ 1400783606000,6 ],[ 1400857250000,6 ],[ 1400889600000,6 ],[ 1400976000000,6 ],[ 1401062400000,6 ],[ 1401148800000,6 ],[ 1401235200000,6 ],[ 1401321600000,6 ],[ 1401408000000,6 ],[ 1401494400000,6 ],[ 1401580800000,6 ],[ 1401667200000,6 ],[ 1401753600000,6 ],[ 1401840000000,6 ],[ 1401926400000,6 ],[ 1402012800000,6 ],[ 1402099200000,6 ],[ 1402185600000,6 ],[ 1402272000000,6 ],[ 1402358400000,6 ],[ 1402444800000,6 ],[ 1402531200000,6 ],[ 1402617600000,6 ],[ 1402704000000,6 ],[ 1402790400000,6 ],[ 1402876800000,6 ],[ 1402963200000,6 ],[ 1403049600000,6 ],[ 1403177356000,7 ],[ 1403188837000,9 ],[ 1403191062000,10 ],[ 1403273771000,12 ],[ 1403308800000,12 ],[ 1403395200000,12 ],[ 1403481600000,12 ],[ 1403568000000,12 ],[ 1403688572000,14 ],[ 1403688861000,16 ],[ 1403689202000,23 ],[ 1403689890000,28 ],[ 1403689983000,35 ],[ 1403690223000,36 ],[ 1403690543000,37 ],[ 1403703894000,39 ],[ 1403780634000,49 ],[ 1403802499000,50 ],[ 1403882892000,65 ],[ 1403889381000,70 ],[ 1403889878000,71 ] ] }] };
+        
+        window.chart_charts.insertions_by_author_by_date = new Highcharts.StockChart(options);
+
+          });
+                })()
+        </script>
+
+<div id="charts.insertions_by_author_by_date"></div>
+<small>
+<center>5 best authors shown</center>
+</small>
+</div>
+</div>
+</div>
+
+
+</div>
+</body>
+</html>
