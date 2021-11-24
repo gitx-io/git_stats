@@ -1,1 +1,4 @@
 test_repos/
+
+*.gem
+Gemfile.lock
