@@ -1,0 +1,61 @@
+name: Generate stats
+
+on:
+  schedule:
+    - cron: '1 0 * * *'
+  push:
+  workflow_dispatch:
+
+jobs:
+  generate_stats:
+    runs-on: ubuntu-latest
+    name: A job to generate stats
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: master
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.6
+        bundler-cache: true
+    - name: Build and install gem
+      run: |
+        bundle install
+        gem build git_stats.gemspec
+        gem i git_stats-*
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        ref: gh-pages
+
+    - name: Checkout test repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        repository: rails/rails
+        path: test_repos/rails
+    - name: Checkout test repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        repository: golang/go
+        path: test_repos/go
+    - name: Checkout test repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        repository: jquery/jquery
+        path: test_repos/jquery
+
+    - name: Generate stats
+      run: ./generate.sh
+    - name: Git commit
+      run: |
+        # git commit if there's any change
+        if test -n "$(git status --porcelain 2>/dev/null)"; then
+            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add .
+            git commit -m "Update git_stats"
+            git push origin ${GITHUB_REF##*/}
+        fi
